@@ -1,0 +1,44 @@
+{
+  "name": "vue-chartview",
+  "version": "0.1.1",
+  "description": "快速实现数据可视化图表的Vue组件库",
+  "keywords": [
+    "vue",
+    "charts",
+    "vue-chartview",
+    "图表"
+  ],
+  "main": "lib/vue-chartview.umd.min",
+  "private": false,
+  "author": "柯晓楠",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "style": "lib/vue-chartview.css",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-chartview --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "echarts": "^5.2.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
