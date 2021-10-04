@@ -9,3 +9,14 @@ chartview是基于Vue+ECharts开发的一套数据可视化图表组件库，可
 ```shell
 $ npm install vue-chartview --save
 ```
+
+### 使用
+
+在 Vue 项目的 `main.js` 入口文件中引入插件，示例代码如下：
+
+```javascript
+import Vue from 'vue'
+import chartview from 'vue-chartview'
+
+Vue.use(chartview)
+```
